@@ -1,0 +1,10 @@
+//Devanshu Save
+
+1.
+\b\hello world\b
+
+2.
+\b\w*[aeiou]\w*[aeiou]\w*[aeiou]\w*\b
+
+3.
+\b[A-Z][A-Z][0-9]{3}[0-9]?\b
