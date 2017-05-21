@@ -1,0 +1,33 @@
+body {
+	background-color: #89cff0;
+}
+
+p{
+	text-align: center;
+	color: purple;
+	font: italic 30px/45px "Comic Sans MS";
+	text-shadow: 1px 1px #0000ff;
+}
+
+p.prime1{
+	color: orange;
+	font-size: 65px;
+	text-shadow: 4px 4px #ff69b4;
+}
+
+p.prime2{
+	color: red;
+	font-size: 45px;
+	font-style: normal;
+	text-shadow: 3px 3px #ffff00;
+}
+
+table{
+	background-image: url("img2.jpg");
+	margin: 0px auto;
+	width: 70%;
+}
+
+tr{
+	text-align: center;
+}
