@@ -13,3 +13,15 @@ HTML, CSS, JavaScript, PHP, mySQL
 
 ## Module 4
 Python, Regular Expressions
+
+## Module 5
+PHP, JavaScript, JSON, AJAX, JQuery
+
+## Module 6
+Node.JS, Socket.IO
+
+## Module 7
+Angular JS
+
+## Creative Project
+DC.js, D3.js, Python Flask, Dashboard, MongoDB
