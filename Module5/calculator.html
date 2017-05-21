@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="./mycss1.css" />
+	<title>Calculator</title>
+</head>
+<body>
+	<p>Man - made Calculator</p><br><br>
+	<table>
+	<tr><td colspan="2">Enter first number</td>
+	<td colspan="2"><input type = "number" id = "num1" name = "num1" required/></td></tr>
+	<tr><td><input type = "radio" id="operator" name = "operator" value="add" />
+	<label>Add</label></td>
+	<td><input type = "radio" id="operator" name = "operator" value="sub" />
+	<label>Subtract</label></td>
+	<td><input type = "radio" id="operator" name = "operator" value="mul" />
+	<label>Multiply</label></td>
+	<td><input type = "radio" id="operator" name = "operator" value="div" />
+	<label>Divide</label></td></tr>
+	<tr><td colspan="2">Enter second number</td>
+	<td colspan="2"><input type = "number" id="num2" name = "num2" required/></td></tr>
+	<tr><td colspan="4"><output id="ans" name="ans">Answer</output></td></tr>
+	</table>
+	</p>
+	<script type="text/javascript" src = "calc.js"></script>
+</body>
+</html>

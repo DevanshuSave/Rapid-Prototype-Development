@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8"/>
+	<title>Calendar</title>
+
+	<link rel="stylesheet" type="text/css" href="calendar.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
+	</script>
+	<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+	<script src= "http://classes.engineering.wustl.edu/cse330/content/calendar.min.js" type ='text/javascript'></script>
+
+</head>
+<body>
+	<div id="logo"><h1>Man made Calendar</h1></div>
+		<div id="menu">
+			<div id="userlogin">
+				<label>Username: </label><input type = "text" id="user">
+				<label>Password: </label><input type = "password" id="pass">
+				<button type="button" id = "login">Login</button>
+				<button type="button" id = "signup">Sign Up</button>
+			<div id="loggedin">
+				<span id="hiuser"></span>
+				<button type="button" id="logout">Logout</button>
+			</div>
+		</div>
+	</div>
+	<div id="page"><br>
+	<table id="mygrid">
+		<tr><td colspan="2">
+				<button type="button" id ="backwardY"> Backward </button>
+				<span id="year"></span>
+				<button type="button" id ="forwardY"> Forward </button>
+			<br><br>
+				<button type="button" id ="backwardM"> Backward </button>
+				<span id="month"></span>
+				<button type="button" id ="forwardM"> Forward </button>
+			<br><br>
+			<div id='monthgrid'></div>
+			<br>
+			<div id="type">
+				<input type="radio" name="type" id="all" value="all" checked>All
+				<input type="radio" name="type" id="personal" value="pri">Private
+				<input type="radio" name="type" id="public" value="pub">Public
+				<button type="button" id="show">Show</button>
+			</div>
+		</td></tr>
+		<tr>
+		<td>
+			<div id='create'>
+				<table>
+				<tr><th colspan="2">Create a New event</th></tr>
+				<tr><td>Title:</td><td><input type="text" id="title" ></td></tr>
+				<tr><td>Description:</td><td><textarea rows="2" cols="30" id="description"></textarea></td></tr>
+				<tr><td>Location:</td><td><input type="text" id="location" ></td></tr>
+				<tr><td>Date:</td><td><input type="date" id="event_date" ></td></tr>
+				<tr><td>Time:</td><td><input type="time" id="event_time" ></td></tr>
+				<tr><td colspan="2"><input type="radio" name="type" id="pri" value="per">Private
+				<input type="radio" name="type" id="pub" value="pub">Public</td></tr>
+				<tr><td colspan="2"><button type="button" id="save">Save</button>
+				<button type="button" id="exit">Exit</button></td></tr>
+				</table>
+			</div>
+		</td>
+		<td>
+			<div id='edit'>
+				<table>
+					<tr><th colspan="2">Edit existing event</th></tr>
+					<tr><td>Title:</td><td><input type="text" id="edit_title"></td></tr>
+					<tr><td>Description:</td><td><textarea rows="2" cols="30" id="edit_description"></textarea></td></tr>
+					<tr><td>Location:</td><td><input type="text" id="edit_location" ></td></tr>
+					<tr><td>Date:</td><td><input type="date" id="edit_event_date" ></td></tr>
+					<tr><td>Time:</td><td><input type="time" id="edit_event_time" ></td></tr>
+					<tr><td><input type="radio" name="edit_type" id="edit_pri" value="pri">Private</td><td>
+					<input type="radio" name="edit_type" id="edit_pub" value="pub">Public</td></tr>
+					<tr><td colspan="2"><button type="button" id="edit_save">Save</button>
+					<button type="button" id="edit_exit">Exit</button>
+					<button type="button" id="edit_delete">Delete</button></td></tr>
+				</table>
+			</div>
+		</td>
+		</tr>
+	</table>
+	<input type="hidden" id="token">
+	<script type="text/javascript" src = "calendar.js"></script>
+	</div>
+</body>
+</html>

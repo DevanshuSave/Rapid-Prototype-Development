@@ -1,0 +1,287 @@
+p{
+	font-family:"Harmonia Sans W01_n4";
+	color: #000000;
+	font-size: 35px;
+	font-style: normal;
+	text-shadow: 2px 2px #aaaaaa;
+}
+
+table{
+	margin-left:auto; 
+    margin-right:auto;
+	font-family:"Harmonia Sans W01_n4";
+	color: black;
+	font-size: 25px;
+	font-style: normal;
+	padding: 20px;
+}
+
+table#mygrid {
+	text-align: center;
+}
+
+html, body {
+	height: 100%;
+}
+
+
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: "Harmonia Sans W01_n4";
+	font-size: 13px;
+	color: #000000;
+	width: 100%;
+}
+
+h1, h2, h3 {
+	margin-top: 0px;
+}
+
+p, ol, ul {
+	margin-top: 0px;
+}
+
+p {
+	line-height: 170%;
+}
+
+ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+strong {
+}
+
+a {
+	color: #A5C35C;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a img {
+	border: none;
+}
+
+img.alignleft {
+	float: left;
+	width: 140px;
+	height: 140px;
+	padding-right: 25px;
+}
+
+img.alignright {
+	width: 140px;
+	height: 140px;
+	float: right;
+}
+
+img.aligncenter {
+	width: 140px;
+	height: 140px;
+	margin: 0px auto;
+}
+
+hr {
+	display: none;
+}
+
+#menu {
+	font-family:"Harmonia Sans W01_n4";
+	width: 960px;
+	height: 80px;
+	margin: 0px auto;
+	background: url(style/menubar.jpg) no-repeat left top;
+}
+
+#menu ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	float: left;
+}
+
+#menu a {
+	display: block;
+	height: 32px;
+	margin: 0px 0px 0px 0px;
+	padding: 16px 25px 0px 25px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 15px;
+	font-weight: bold;
+	color: #000000;
+}
+
+#menu a:hover {
+	background: #D1E8D1;
+	text-decoration: none;
+	color: #000000;
+}
+
+#logo {
+	width: 960px;
+	height: 60px;
+	margin: 0px auto;
+	text-transform: uppercase;
+}
+
+#logo h1 a {
+	display: block;
+	margin: 0px;
+	padding: 10px 0px 0px 0px;
+	font-size: 36px;
+}
+
+
+#logo a {
+	text-decoration: none;
+}
+
+#page {
+	width: 960px;
+	margin: 0px auto;
+	padding: 30px 0px 10px 0px;
+}
+
+#content {
+	float: right;
+	width: 765px;
+	padding-left: 30px;
+	/*background: url(style/img2.jpg) repeat-y left top;*/
+}
+
+#sidebar {
+	float: left;
+	width: 165px;
+}
+
+#sidebar img {
+	width: 140px;
+	height: 140px;
+	margin: 10px auto;
+}
+
+#sidebar h2 {
+	padding: 0px 0px 10px 0px;
+	text-transform: uppercase;
+	font-size: 18px;
+}
+
+#sidebar li ul {
+	color: #A5C35C;
+	text-decoration: none;
+	margin: 0px 0px 0px 20px;
+	padding: 0px 0px 20px 0px;
+}
+
+#sidebar li li {
+	padding: 0px 0px 5px 0px;
+}
+
+#sidebar p {
+	margin: 0px 0px 20px 20px;
+}
+
+
+.post {
+	margin-bottom: 25px;
+	padding-bottom: 50px;
+	background: url(style/img1.jpg) repeat-x left bottom;
+}
+
+.post .title {
+	margin: 0px;
+	padding-bottom: 10px;
+	letter-spacing: -1px;
+}
+
+.post .title a {
+	border: none;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 22px;
+	color: #000000;
+}
+
+.post .meta {
+	display: block;
+	margin-top: -15px;
+	padding: 5px 0px;
+	text-align: left;
+	font-family: "Harmonia Sans W01_n4";
+	font-size: 11px;
+	font-style: italic;
+}
+
+.post .meta a {
+}
+
+.post .entry {
+	text-align: justify;
+	margin-top: 15px;
+	padding: 10px 0px 10px 0px;
+	/*margin-bottom: 20px;*/
+}
+
+.post .entry .buttons {
+	margin: -20px 60px 10px 10px;
+	float: right;
+	height: 50px;
+	width: 100px;
+	font-size: 10px;
+	text-transform: uppercase;
+	text-align: center;
+	background: url(style/button.jpg) no-repeat left top;
+}
+
+.post .entry .buttons a:hover {
+	background: #D1E8D1;
+}
+
+.post .entry .buttons a {
+	
+	font-weight: bold;
+	padding-top: 20px;
+	display: block;
+	height: 30px;
+	width: 100px;
+	text-decoration: none;
+	color: #000000;
+}
+
+#footer {
+	width: 960px;
+	margin: 0px auto;
+	background: url(style/img1.jpg) repeat-x left top;
+}
+
+#footer p {
+	margin: 0px;
+	padding: 20px 0px 20px 0px;
+	text-align: center;
+	font-size: 11px;
+}
+
+#footer a {
+	color: #000000;
+}
+
+textarea#style1 {
+	width: 600px;
+	height: 120px;
+	border: 3px solid #cccccc;
+	padding: 5px;
+	background-repeat: no-repeat;
+	font-family: "Harmonia Sans W01_n4";
+	background-position: bottom right;
+}
