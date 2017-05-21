@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Coffees</title>
+</head>
+<body class="menu">
+<p>Search: <input ng-model="query" type="text"></p>
+
+<table>
+<tr>
+<td>Reviews:</td>
+<td>Brand:</td>
+<td>Coffee Title:</td>
+<td>Country:</td>
+</tr>
+</table>
+<!-- https://docs.angularjs.org/tutorial/step_05 -->
+<ul ng-repeat="coffee in coffees | filter:query | orderBy:'name' ">
+<li>
+<table>
+<tr>
+<td><a href="#/reviews/{{coffee.id}}">Reviews</a></td>
+<td>{{coffee.name}}</td>
+<td>{{coffee.brand}}</td>
+<td>{{coffee.country}}</td>
+</tr>
+</table>
+</li>
+</ul>
+</body>
+</html>
